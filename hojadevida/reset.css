@@ -1,0 +1,60 @@
+/* Reset general de estilos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establecer fuente base para todos los elementos */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Eliminar los estilos por defecto de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Eliminar los bordes y estilos predeterminados de listas */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Eliminar bordes de formularios */
+input, button, textarea, select {
+  border: none;
+  outline: none;
+  font: inherit;
+}
+
+/* Normalizar el tamaño de las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Normalizar tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Evitar el desplazamiento indeseado */
+html, body {
+  height: 100%;
+}
+
+/* Asegurar que el contenido fluya correctamente */
+body {
+  background-color: #fff;
+  color: #333;
+}
